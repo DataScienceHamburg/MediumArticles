@@ -1,0 +1,489 @@
+"Country","Year","Installation"
+"China",2014,114763
+"China",2015,145104
+"China",2016,168690
+"China",2017,188232
+"China",2018,211392
+"China",2019,236320
+"China",2020,281993
+"China",2021,328973
+"European Union",2014,128752
+"European Union",2015,141579
+"European Union",2016,153730
+"European Union",2017,169319
+"European Union",2018,178826
+"European Union",2019,192020
+"European Union",2020,201507
+"European Union",2021,187497
+"United States",2014,65879
+"United States",2015,74472
+"United States",2016,82183
+"United States",2017,89077
+"United States",2018,96665
+"United States",2019,105466
+"United States",2020,117744
+"United States",2021,132738
+"Germany",2014,39165
+"Germany",2015,44947
+"Germany",2016,50019
+"Germany",2017,56132
+"Germany",2018,59311
+"Germany",2019,61357
+"Germany",2020,62184
+"Germany",2021,63760
+"India",2014,22465
+"India",2015,27151
+"India",2016,28665
+"India",2017,32848
+"India",2018,35129
+"India",2019,37506
+"India",2020,38559
+"India",2021,40067
+"Spain",2014,22987
+"Spain",2015,23025
+"Spain",2016,23075
+"Spain",2017,23170
+"Spain",2018,23494
+"Spain",2019,25808
+"Spain",2020,27089
+"Spain",2021,27497
+"United Kingdom",2014,12440
+"United Kingdom",2015,13603
+"United Kingdom",2016,15030
+"United Kingdom",2017,18872
+"United Kingdom",2018,20970
+"United Kingdom",2019,23515
+"United Kingdom",2020,24665
+"United Kingdom",2021,27130
+"Brazil",2014,5939
+"Brazil",2015,8715
+"Brazil",2016,10740
+"Brazil",2017,12763
+"Brazil",2018,14707
+"Brazil",2019,15452
+"Brazil",2020,17198
+"Brazil",2021,21161
+"France",2014,9285
+"France",2015,10358
+"France",2016,12065
+"France",2017,13759
+"France",2018,15309
+"France",2019,16643
+"France",2020,17382
+"France",2021,18676
+"Canada",2014,9694
+"Canada",2015,11205
+"Canada",2016,11898
+"Canada",2017,12239
+"Canada",2018,12816
+"Canada",2019,13413
+"Canada",2020,13577
+"Canada",2021,14304
+"Sweden",2014,5425
+"Sweden",2015,6025
+"Sweden",2016,6519
+"Sweden",2017,6691
+"Sweden",2018,7407
+"Sweden",2019,8804
+"Sweden",2020,9688
+"Sweden",2021,12080
+"Italy",2014,8663
+"Italy",2015,8958
+"Italy",2016,9257
+"Italy",2017,9479
+"Italy",2018,9958
+"Italy",2019,10512
+"Italy",2020,10839
+"Italy",2021,11276
+"Turkey",2014,3763
+"Turkey",2015,4718
+"Turkey",2016,6101
+"Turkey",2017,6516
+"Turkey",2018,7369
+"Turkey",2019,8056
+"Turkey",2020,8832
+"Turkey",2021,10607
+"Australia",2014,3806
+"Australia",2015,4187
+"Australia",2016,4327
+"Australia",2017,4557
+"Australia",2018,5362
+"Australia",2019,6199
+"Australia",2020,8603
+"Australia",2021,8951
+"Netherlands",2014,2805
+"Netherlands",2015,3431
+"Netherlands",2016,4328
+"Netherlands",2017,4341
+"Netherlands",2018,4471
+"Netherlands",2019,4600
+"Netherlands",2020,6600
+"Netherlands",2021,7801
+"Mexico",2014,2551
+"Mexico",2015,3073
+"Mexico",2016,3527
+"Mexico",2017,4005
+"Mexico",2018,4935
+"Mexico",2019,6215
+"Mexico",2020,6504
+"Mexico",2021,7692
+"Denmark",2014,4845
+"Denmark",2015,5063
+"Denmark",2016,5227
+"Denmark",2017,5476
+"Denmark",2018,5758
+"Denmark",2019,6128
+"Denmark",2020,6235
+"Denmark",2021,7014
+"Poland",2014,3834
+"Poland",2015,5100
+"Poland",2016,5782
+"Poland",2017,6397
+"Poland",2018,5864
+"Poland",2019,5917
+"Poland",2020,6267
+"Poland",2021,6958
+"Portugal",2014,4914
+"Portugal",2015,5079
+"Portugal",2016,5316
+"Portugal",2017,5316
+"Portugal",2018,5380
+"Portugal",2019,5437
+"Portugal",2020,5239
+"Portugal",2021,5248
+"Belgium",2014,1959
+"Belgium",2015,2229
+"Belgium",2016,2386
+"Belgium",2017,2843
+"Belgium",2018,3360
+"Belgium",2019,3879
+"Belgium",2020,4692
+"Belgium",2021,4780
+"Norway[35][36]",2014,819
+"Norway[35][36]",2015,838
+"Norway[35][36]",2016,838
+"Norway[35][36]",2017,1162
+"Norway[35][36]",2018,1675
+"Norway[35][36]",2019,2444
+"Norway[35][36]",2020,3977
+"Norway[35][36]",2021,4650
+"Japan",2014,2789
+"Japan",2015,3038
+"Japan",2016,3234
+"Japan",2017,3400
+"Japan",2018,3661
+"Japan",2019,3923
+"Japan",2020,4206
+"Japan",2021,4471
+"Greece",2014,1980
+"Greece",2015,2152
+"Greece",2016,2374
+"Greece",2017,2651
+"Greece",2018,2844
+"Greece",2019,3576
+"Greece",2020,4113
+"Greece",2021,4457
+"Ireland",2014,2272
+"Ireland",2015,2486
+"Ireland",2016,2830
+"Ireland",2017,3127
+"Ireland",2018,3564
+"Ireland",2019,4155
+"Ireland",2020,4300
+"Ireland",2021,4332
+"Austria",2014,2095
+"Austria",2015,2412
+"Austria",2016,2632
+"Austria",2017,2828
+"Austria",2018,3045
+"Austria",2019,3159
+"Austria",2020,3224
+"Austria",2021,3524
+"Argentina",2014,204
+"Argentina",2015,204
+"Argentina",2016,204
+"Argentina",2017,228
+"Argentina",2018,722
+"Argentina",2019,1604
+"Argentina",2020,2624
+"Argentina",2021,3292
+"Finland",2014,627
+"Finland",2015,1005
+"Finland",2016,1539
+"Finland",2017,2113
+"Finland",2018,2041
+"Finland",2019,2284
+"Finland",2020,2474
+"Finland",2021,3257
+"Chile",2014,836
+"Chile",2015,933
+"Chile",2016,1424
+"Chile",2017,1540
+"Chile",2018,1621
+"Chile",2019,2150
+"Chile",2020,2149
+"Chile",2021,3137
+"Romania",2014,2953
+"Romania",2015,2976
+"Romania",2016,3028
+"Romania",2017,3029
+"Romania",2018,3029
+"Romania",2019,3029
+"Romania",2020,3013
+"Romania",2021,3013
+"South Africa",2014,570
+"South Africa",2015,1053
+"South Africa",2016,1471
+"South Africa",2017,2094
+"South Africa",2018,2085
+"South Africa",2019,2085
+"South Africa",2020,2636
+"South Africa",2021,2956
+"Ukraine",2014,498
+"Ukraine",2015,514
+"Ukraine",2016,526
+"Ukraine",2017,593
+"Ukraine",2018,533
+"Ukraine",2019,1170
+"Ukraine",2020,1402
+"Ukraine",2021,1761
+"South Korea",2014,609
+"South Korea",2015,852
+"South Korea",2016,1089
+"South Korea",2017,1136
+"South Korea",2018,1302
+"South Korea",2019,1420
+"South Korea",2020,1636
+"South Korea",2021,1708
+"Egypt",2014,610
+"Egypt",2015,610
+"Egypt",2016,810
+"Egypt",2017,810
+"Egypt",2018,1190
+"Egypt",2019,1375
+"Egypt",2020,1375
+"Egypt",2021,1640
+"Uruguay",2014,701
+"Uruguay",2015,845
+"Uruguay",2016,1210
+"Uruguay",2017,1505
+"Uruguay",2018,1514
+"Uruguay",2019,1514
+"Uruguay",2020,1514
+"Uruguay",2021,1514
+"Thailand",2014,223
+"Thailand",2015,223
+"Thailand",2016,430
+"Thailand",2017,648
+"Thailand",2018,778
+"Thailand",2019,1507
+"Thailand",2020,1507
+"Thailand",2021,1507
+"Morocco",2014,787
+"Morocco",2015,787
+"Morocco",2016,787
+"Morocco",2017,787
+"Morocco",2018,1207
+"Morocco",2019,1207
+"Morocco",2020,1405
+"Morocco",2021,1435
+"Kazakhstan",2014,53
+"Kazakhstan",2015,72
+"Kazakhstan",2016,98
+"Kazakhstan",2017,112
+"Kazakhstan",2018,121
+"Kazakhstan",2019,284
+"Kazakhstan",2020,486
+"Kazakhstan",2021,1170
+"Croatia",2014,347
+"Croatia",2015,387
+"Croatia",2016,422
+"Croatia",2017,613
+"Croatia",2018,613
+"Croatia",2019,652
+"Croatia",2020,788
+"Croatia",2021,988
+"New Zealand",2014,623
+"New Zealand",2015,623
+"New Zealand",2016,623
+"New Zealand",2017,623
+"New Zealand",2018,689
+"New Zealand",2019,690
+"New Zealand",2020,784
+"New Zealand",2021,917
+"Bulgaria",2014,691
+"Bulgaria",2015,691
+"Bulgaria",2016,691
+"Bulgaria",2017,691
+"Bulgaria",2018,691
+"Bulgaria",2019,691
+"Bulgaria",2020,703
+"Bulgaria",2021,705
+"Lithuania",2014,279
+"Lithuania",2015,315
+"Lithuania",2016,493
+"Lithuania",2017,493
+"Lithuania",2018,439
+"Lithuania",2019,533
+"Lithuania",2020,539
+"Lithuania",2021,671
+"Philippines",2014,216
+"Philippines",2015,216
+"Philippines",2016,427
+"Philippines",2017,427
+"Philippines",2018,427
+"Philippines",2019,427
+"Philippines",2020,443
+"Philippines",2021,443
+"Peru",2014,148
+"Peru",2015,148
+"Peru",2016,243
+"Peru",2017,243
+"Peru",2018,375
+"Peru",2019,375
+"Peru",2020,376
+"Peru",2021,409
+"Costa Rica",2014,198
+"Costa Rica",2015,268
+"Costa Rica",2016,319
+"Costa Rica",2017,378
+"Costa Rica",2018,408
+"Costa Rica",2019,459
+"Costa Rica",2020,394
+"Costa Rica",2021,394
+"Czech Republic",2014,215
+"Czech Republic",2015,281
+"Czech Republic",2016,282
+"Czech Republic",2017,308
+"Czech Republic",2018,316
+"Czech Republic",2019,339
+"Czech Republic",2020,339
+"Czech Republic",2021,339
+"Ethiopia",2014,171
+"Ethiopia",2015,324
+"Ethiopia",2016,324
+"Ethiopia",2017,324
+"Ethiopia",2018,324
+"Ethiopia",2019,324
+"Ethiopia",2020,324
+"Ethiopia",2021,324
+"Hungary",2014,329
+"Hungary",2015,329
+"Hungary",2016,329
+"Hungary",2017,329
+"Hungary",2018,329
+"Hungary",2019,323
+"Hungary",2020,323
+"Hungary",2021,321
+"Estonia",2014,302
+"Estonia",2015,303
+"Estonia",2016,310
+"Estonia",2017,310
+"Estonia",2018,310
+"Estonia",2019,316
+"Estonia",2020,316
+"Estonia",2021,317
+"Panama",2014,35
+"Panama",2015,270
+"Panama",2016,270
+"Panama",2017,270
+"Panama",2018,270
+"Panama",2019,270
+"Panama",2020,270
+"Panama",2021,270
+"Sri Lanka",2014,121
+"Sri Lanka",2015,131
+"Sri Lanka",2016,131
+"Sri Lanka",2017,131
+"Sri Lanka",2018,128
+"Sri Lanka",2019,128
+"Sri Lanka",2020,252
+"Sri Lanka",2021,253
+"Tunisia",2014,245
+"Tunisia",2015,245
+"Tunisia",2016,358
+"Tunisia",2017,244
+"Tunisia",2018,244
+"Tunisia",2019,244
+"Tunisia",2020,244
+"Tunisia",2021,245
+"Honduras",2014,126
+"Honduras",2015,176
+"Honduras",2016,180
+"Honduras",2017,225
+"Honduras",2018,274
+"Honduras",2019,241
+"Honduras",2020,241
+"Honduras",2021,241
+"Nicaragua",2014,186
+"Nicaragua",2015,186
+"Nicaragua",2016,186
+"Nicaragua",2017,186
+"Nicaragua",2018,186
+"Nicaragua",2019,186
+"Nicaragua",2020,186
+"Nicaragua",2021,186
+"Cyprus",2014,147
+"Cyprus",2015,158
+"Cyprus",2016,158
+"Cyprus",2017,158
+"Cyprus",2018,158
+"Cyprus",2019,158
+"Cyprus",2020,158
+"Cyprus",2021,158
+"Luxembourg",2014,58
+"Luxembourg",2015,58
+"Luxembourg",2016,100
+"Luxembourg",2017,120
+"Luxembourg",2018,120
+"Luxembourg",2019,136
+"Luxembourg",2020,153
+"Luxembourg",2021,157
+"Mongolia",2014,50
+"Mongolia",2015,50
+"Mongolia",2016,50
+"Mongolia",2017,100
+"Mongolia",2018,149
+"Mongolia",2019,149
+"Mongolia",2020,156
+"Mongolia",2021,156
+"Indonesia",2014,1
+"Indonesia",2015,1
+"Indonesia",2016,1
+"Indonesia",2017,1
+"Indonesia",2018,144
+"Indonesia",2019,154
+"Indonesia",2020,154
+"Indonesia",2021,154
+"Kosovo",2014,1
+"Kosovo",2015,1
+"Kosovo",2016,1
+"Kosovo",2017,34
+"Kosovo",2018,34
+"Kosovo",2019,34
+"Kosovo",2020,32
+"Kosovo",2021,137
+"Bolivia",2014,3
+"Bolivia",2015,3
+"Bolivia",2016,27
+"Bolivia",2017,27
+"Bolivia",2018,27
+"Bolivia",2019,27
+"Bolivia",2020,27
+"Bolivia",2021,128
+"Puerto Rico",2014,125
+"Puerto Rico",2015,125
+"Puerto Rico",2016,125
+"Puerto Rico",2017,101
+"Puerto Rico",2018,101
+"Puerto Rico",2019,102
+"Puerto Rico",2020,102
+"Puerto Rico",2021,125
+"Belarus",2014,9
+"Belarus",2015,22
+"Belarus",2016,62
+"Belarus",2017,84
+"Belarus",2018,92
+"Belarus",2019,112
+"Belarus",2020,112
+"Belarus",2021,112

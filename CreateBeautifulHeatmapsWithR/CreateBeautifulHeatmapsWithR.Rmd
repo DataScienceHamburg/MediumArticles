@@ -1,0 +1,84 @@
+---
+title: "R create heatmaps"
+output: html_document
+date: "2022-09-20"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = F, message = F)
+```
+
+
+# Packages
+
+```{r}
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+library(gplots)
+library(pheatmap)
+```
+
+# Data Prep
+
+```{r}
+# data import
+url <- "https://archive.ics.uci.edu/ml/machine-learning-databases/adult/adult.data"
+adult <- read.delim(url, sep = ",", header = F)
+# data preparation
+adult_filt <- adult %>% 
+  rename(age = V1,
+         education = V5,
+         income = V15
+         ) %>% 
+  mutate(age_bin = age %/% 5,
+         income = income %>% as.factor() %>% as.numeric() -1) %>% 
+  group_by(age_bin, education) %>% 
+  summarise(income_ratio = mean(income) * 100)
+
+adult_wide <- adult_filt %>% 
+  pivot_wider(names_from = age_bin, id_cols = education, values_from = income_ratio)
+
+adult_wide_matrix <- adult_wide %>% 
+  as.matrix()
+```
+
+# ggplot2
+
+```{r}
+adult_filt %>% 
+  ggplot(data=., aes(x = age_bin, 
+              y = education, 
+              fill = income_ratio,
+              label = round(income_ratio, 0))) +
+  geom_tile() +
+  geom_text(size=2) +
+  scale_fill_gradientn(colours = 
+     c("blue","green","yellow","orange","red","brown","black"),
+     name = 'Income Ratio [%]') +
+  labs(x = 'Age [-]', y = 'Education Level [-]', title = 'Income vs. Age and Education')
+```
+
+# gplots
+
+```{r}
+col_pal <- colorRampPalette(c("blue","green","yellow","orange","red","brown","black"))
+heatmap.2(x = adult_wide_matrix, key=T, keysize=1.5, symkey=F, 
+          col = col_pal, 
+          breaks=c(seq(0, 80 ,0.01)), Rowv=F, Colv=F, 
+          dendrogram="none", 
+          ylab="Education Level [-]", xlab="Age [-]", 
+          cexRow=.8, cexCol=.8,
+          cellnote=round(adult_wide_matrix, 0), 
+          notecex=.8, notecol="white",
+          trace="none",scale ="none")
+```
+
+# pheatmap
+
+```{r}
+pheatmap(mat = adult_wide_matrix, display_numbers = T, 
+     breaks = 0:100, border_color = "black", drop_levels = T, kmeans_k = NA, 
+     cluster_rows = F, cluster_cols = F, main = "Income vs. Age/Education")
+```
+

@@ -1,0 +1,42 @@
+---
+title: "Data Reshaping with R"
+output: html_document
+date: "2022-09-20"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = F, message = F)
+```
+
+
+# Wide data
+
+```{r}
+library(dplyr)
+library(tidyr)
+
+school_wide <- tibble(name = c("Stuart", "Bob", "Kevin"),
+                      math = c(2, 3, 4),
+                      sport = c(3, 1, 2),
+                      art = c(3, 2, 1))
+school_wide
+```
+# Wide to Long Format
+
+```{r}
+school_tidy <- pivot_longer(data = school_wide,
+                           cols = 2:4, 
+                           names_to = "subject", 
+                           values_to = "grade")
+school_tidy
+```
+
+
+```{r}
+school_wide_reconstructed <- pivot_wider(data=school_tidy, 
+                                         id_cols = 'name', 
+                                         names_from = 'subject', 
+                                         values_from = 'grade')
+school_wide_reconstructed
+```
+
